@@ -1,0 +1,128 @@
+/**
+ *
+ * @author mitch
+ */
+
+    class MightWeBeFriendsFinal.java ; {
+    static void main(String[] args); 
+        
+        
+    int answer;
+    int score = 0;
+    {
+    System.out.print( "Lets see if we might be friends!! I am going to ask you 5 yes or no questions. If you get more than 3,"
+        + "theres a pretty good chance we could be friends! If you get less than 3, I'm sure we could still be friends, we just would'nt have"
+            + "much in common!" );
+    
+    System.out.println( " Let's get to it!" );
+
+    System.out.println( "Do you like video games? " );
+    System.out.println( "   1 - Yes" );
+    System.out.println( "   2 - No" );
+    
+
+    System.out.print( ">" );
+    
+{
+    if ( answer == 1 )
+    {
+    System.out.println( "Awesome, plus 1!" );
+        score++;
+    }
+
+    else if ( answer == 2 )
+    {
+    System.out.println( "That's wack! 0 points" );
+    }
+    }   
+    {
+    System.out.println( "Do you like dogs? " );
+    System.out.println( "   1 - Yes" );
+    System.out.println( "   2 - No" ); }
+    {
+    
+
+    System.out.print( ">" );
+    
+
+    if ( answer == 1 )
+    {
+    System.out.println( "Who doesn't? Plus 1!" );
+        score++;
+    }
+
+    else if ( answer == 2 )
+    {
+    System.out.println( "That's odd... 0 points" );
+        }
+        
+    System.out.println( "Do you like modded cars and trucks? " );
+    System.out.println( "   1 - Yes" );
+    System.out.println( "   2 - No" );
+    
+
+    System.out.print( ">" );
+    
+
+    if ( answer == 1 )
+    {
+    System.out.println( "I live my life a quarter mile at a time. One more point for you!" );
+        score++;
+    }
+
+    else if ( answer == 2 )
+    {
+    System.out.println( "Not everyone's cup of tea. 0 points" );
+    }
+        }
+    {
+    System.out.println( "Do you like pizza? " );
+    System.out.println( "   1 - Yes" );
+    System.out.println( "   2 - No" );
+    
+
+    System.out.print( ">" );
+    
+    if ( answer == 1 )
+    {
+    System.out.println( "My favorite food, you've got great taste! Here's another point!" );
+        score++;
+    }
+
+    else if ( answer == 2 )
+    {
+    System.out.println( "Uhh, I see. 0 points..." );
+    }
+    }   
+    {
+        System.out.println( "Are you a tech geek? " );
+    System.out.println( "   1 - Yes" );
+    System.out.println( "   2 - No" );
+    
+
+    System.out.print( ">" );
+    
+
+    if ( answer == 1 )
+    {
+    System.out.println( "Ahh, I am in good company! Plus 1 point!" );
+        score++;
+    }
+
+    else if ( answer == 2 )
+    {
+    System.out.println( "I see, I'm sure you have all sorts of interesting hobbies! 0 points." );
+    }
+    }   
+    {
+    System.out.println( "Thanks for playing" );
+    System.out.println("Your final score is: " + score);
+    }
+    }
+    }
+    
+        
+    
+
+        
+        
