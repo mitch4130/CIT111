@@ -1,0 +1,64 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author mitch
+ */
+package objects1_donuts;
+public class DonutSimulator2021 {
+    
+        final static int smallBite = 5;
+        final static int bigBite = 45;
+        
+    public static void main(String[] args){
+
+        Donut firstDonut;
+        firstDonut = new Donut();
+        
+        firstDonut.name = "Marcello";
+        
+       
+        printObjectData(firstDonut);
+        
+        
+        Donut secondDonut;
+        secondDonut = new Donut();
+        secondDonut.name = "Melinda";
+        
+        printObjectData(secondDonut);
+        
+        // now eat some of each donut and print out the stats
+        System.out.println("Eating " + firstDonut.name);
+        System.out.println("Small bite...");
+        firstDonut.simulateEating(smallBite);
+        System.out.println("Small bite...");
+        firstDonut.simulateEating(smallBite);
+        System.out.println("Taking a big bite...");
+        firstDonut.simulateEating(bigBite);
+        printObjectData(firstDonut);
+        
+        
+        System.out.println("Eating " + secondDonut.name);
+        System.out.println("Taking lots of big bites");
+        int numCalls = 10;
+        for(int i = 0; i < numCalls; i++){
+            System.out.println("Munch munch");
+            secondDonut.simulateEating(bigBite);
+        }
+        
+        printObjectData(secondDonut);
+        
+    } 
+    
+    private static void printObjectData(Donut inputDonut){
+        System.out.println("|-------STATS--------|");
+        System.out.println("| Name: " + inputDonut.name);
+        System.out.println("| PercRemaining: " + inputDonut.getPercRemaining());
+        System.out.println("|--------------------|");
+    } 
+} 
+
